@@ -1,0 +1,13 @@
+/.gradle
+/build
+/bin
+/logs/
+# eclipse
+/.classpath
+/.project
+/.settings
+
+# idea
+/matrixspider.*
+/.idea
+/src/main/main.iml
