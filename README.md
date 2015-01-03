@@ -8,7 +8,8 @@
 4. [log4j](http://logging.apache.org/log4j/2.x/index.html)
 5. mysql
 6. hibernate
-7. spring boot
+7. spring MVC
+8. [jdic](https://java.net/projects/jdic/)
 
 ### github workflow
 
@@ -49,8 +50,7 @@ cp src/main/resources/log4j2.xml.example src/main/resources/log4j2.xml
 
 gradle wrapper
 ./gradlew build
-java -jar build/libs/matrixspider-0.1.0.jar
-
+gradlew jettyRun
 
 
 #jar {
