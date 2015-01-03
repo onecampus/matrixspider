@@ -11,3 +11,8 @@
 /matrixspider.*
 /.idea
 /src/main/main.iml
+
+# hibernate config
+
+# log4j config
+/src/main/resources/log4j2.xml
