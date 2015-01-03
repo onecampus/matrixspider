@@ -6,6 +6,9 @@
 2. [jsoup](http://jsoup.org/)
 3. [junit](http://junit.org/)
 4. [log4j](http://logging.apache.org/log4j/2.x/index.html)
+5. mysql
+6. hibernate
+7. spring boot
 
 ### github workflow
 
@@ -43,8 +46,21 @@ gradle idea
 ```ruby
 cp src/main/resources/hibernate.cfg.xml.example src/main/resources/hibernate.cfg.xml
 cp src/main/resources/log4j2.xml.example src/main/resources/log4j2.xml
-gradle build
+
+gradle wrapper
+./gradlew build
 java -jar build/libs/matrixspider-0.1.0.jar
+
+
+
+#jar {
+#    baseName = 'matrixspider'
+#    version =  '0.1.0'
+#    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+#    manifest {
+#        attributes 'Main-Class': 'com.onecampus.service.Application'
+#    }
+#}
 ```
 
 ### Test

@@ -17,3 +17,8 @@
 
 # log4j config
 /src/main/resources/log4j2.xml
+
+# gradle wrapper
+/gradle
+/gradlew
+/gradlew.bat
