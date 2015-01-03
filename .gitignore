@@ -13,6 +13,7 @@
 /src/main/main.iml
 
 # hibernate config
+/src/main/resources/hibernate.cfg.xml
 
 # log4j config
 /src/main/resources/log4j2.xml

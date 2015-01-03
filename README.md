@@ -41,8 +41,8 @@ gradle idea
 #### Usage
 
 ```ruby
-cp /src/main/resources/hibernate.cfg.xml.example /src/main/resources/hibernate.cfg.xml
-cp /src/main/resources/log4j2.xml.example /src/main/resources/log4j2.xml
+cp src/main/resources/hibernate.cfg.xml.example src/main/resources/hibernate.cfg.xml
+cp src/main/resources/log4j2.xml.example src/main/resources/log4j2.xml
 gradle build
 java -jar build/libs/matrixspider-0.1.0.jar
 ```
